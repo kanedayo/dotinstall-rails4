@@ -49,18 +49,17 @@
 <td align="left">MVC</td>
 <td align="left">Model/View/Controller</td>
 </tr>
-<tr>
-<td align="left">:-------------</td>
-<td align="left">:-------------</td>
-</tr>
 </tbody>
-</table><p>gem therubyracer # JavaScript Runtime</p>
+</table><pre><code>gem therubyracer # JavaScript Runtime
+</code></pre>
 
-<pre lang="myapp"><code>rails g scaffold User name score:integer
+<pre><code>#myapp
+rails g scaffold User name score:integer
 rake db:migrate
 </code></pre>
 
-<pre lang="TaskApp"><code>rails new taskapp --skip-bundle
+<pre><code>#TaskApp
+rails new taskapp --skip-bundle
 cd taskapp
 vi Gemfile
 rails g model project title
