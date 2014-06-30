@@ -32,7 +32,7 @@ class ProjectsController < ApplicationController
 
   private
   def project_params
-    params[:peojrct].permit(:title)
+    params[:project].permit(:title)
   end
 
   def set_project
